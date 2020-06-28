@@ -14,3 +14,6 @@ end
 def update_array_at_with(array, index, value)
   array[index] = value;
 end
+
+def move(array, index, "X")
+  update_array_at_with(array, index, "X");
